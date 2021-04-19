@@ -1,12 +1,12 @@
 import React from "react";
-import Name from "./Name";
-import About from "./About";
+import ProfileName from "./ProfileName";
+import ProfileAbout from "./ProfileAbout";
 
 function Profile() {
   return (
     <React.Fragment>
-      <Name />
-      <About />
+      <ProfileName />
+      <ProfileAbout />
     </React.Fragment>
   );
 }
