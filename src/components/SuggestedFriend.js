@@ -4,7 +4,8 @@ import PropTypes from "prop-types";
 function SuggestedFriend(props) {
   return (
     <React.Fragment>
-      <h3>{props.name}</h3>
+      <h4>{props.name}</h4>
+      <button class="btn btn-dark">Follow</button>
       <hr/>
     </React.Fragment>
   );
