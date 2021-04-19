@@ -1,5 +1,5 @@
 import React from 'react';
-import SuggestedFriend from './Friend';
+import SuggestedFriend from './SuggestedFriend';
 
 const suggestedFriends = [
   {
@@ -17,7 +17,7 @@ function SuggestedList() {
   return (
     <React.Fragment>
       {suggestedFriends.map((friend, index) => 
-        <Friend
+        <SuggestedFriend
           name={friend.name}
           key={index}
         />
