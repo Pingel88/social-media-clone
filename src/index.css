@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div {
+  margin-top: 10px;
+}
+
+.feed-pic {
+  float: left;
+  height: 65px;
+  width: 65px;
+  object-fit: cover;
+  border: 3px solid goldenrod;
+  margin-right: 10px;
+}
